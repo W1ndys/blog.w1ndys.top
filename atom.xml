@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>W1ndysの小屋</title>
+  <icon>https://blog.w1ndys.top/icon.png</icon>
+  <subtitle>欲戴皇冠，必承其重</subtitle>
+  <link href="https://blog.w1ndys.top/atom.xml" rel="self"/>
+  
+  <link href="https://blog.w1ndys.top/"/>
+  <updated>2024-07-01T09:30:01.450Z</updated>
+  <id>https://blog.w1ndys.top/</id>
+  
+  <author>
+    <name>W1ndys</name>
+    <email>w1ndys@outlook.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>汇编语言与逆向工程实验报告14</title>
+    <link href="https://blog.w1ndys.top/posts/3aa621a9"/>
+    <id>https://blog.w1ndys.top/posts/3aa621a9</id>
+    <published>2024-06-19T14:43:34.000Z</published>
+    <updated>2024-07-01T09:30:01.450Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;成功启动设备的应用&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../img/Reverse-project/14/image-20240619224447669.png&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="QFNU" scheme="https://blog.w1ndys.top/categories/QFNU/"/>
+    
+    <category term="汇编语言与逆向工程" scheme="https://blog.w1ndys.top/categories/QFNU/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E4%B8%8E%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/"/>
+    
+    <category term="实验报告" scheme="https://blog.w1ndys.top/categories/QFNU/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E4%B8%8E%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/"/>
+    
+    
+    <category term="汇编语言" scheme="https://blog.w1ndys.top/tags/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="逆向工程" scheme="https://blog.w1ndys.top/tags/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/"/>
+    
+    <category term="QFNU" scheme="https://blog.w1ndys.top/tags/QFNU/"/>
+    
+    <category term="安卓逆向" scheme="https://blog.w1ndys.top/tags/%E5%AE%89%E5%8D%93%E9%80%86%E5%90%91/"/>
+    
+    <category term="Frida" scheme="https://blog.w1ndys.top/tags/Frida/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>汇编语言与逆向工程实验报告13</title>
+    <link href="https://blog.w1ndys.top/posts/a4c2b40a"/>
+    <id>https://blog.w1ndys.top/posts/a4c2b40a</id>
+    <published>2024-06-08T05:38:14.000Z</published>
+    <updated>2024-07-01T09:30:01.450Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;配置环境&quot;&gt;&lt;a href=&quot;#配置环境&quot; class=&quot;headerlink&quot; title=&quot;配置环境&quot;&gt;&lt;/a&gt;配置环境&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;安卓模拟器上传 Frida-server&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="QFNU" scheme="https://blog.w1ndys.top/categories/QFNU/"/>
+    
+    <category term="汇编语言与逆向工程" scheme="https://blog.w1ndys.top/categories/QFNU/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E4%B8%8E%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/"/>
+    
+    <category term="实验报告" scheme="https://blog.w1ndys.top/categories/QFNU/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E4%B8%8E%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/"/>
+    
+    
+    <category term="汇编语言" scheme="https://blog.w1ndys.top/tags/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="逆向工程" scheme="https://blog.w1ndys.top/tags/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/"/>
+    
+    <category term="QFNU" scheme="https://blog.w1ndys.top/tags/QFNU/"/>
+    
+    <category term="安卓逆向" scheme="https://blog.w1ndys.top/tags/%E5%AE%89%E5%8D%93%E9%80%86%E5%90%91/"/>
+    
+    <category term="Frida" scheme="https://blog.w1ndys.top/tags/Frida/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>操作系统实验7——地址映射与共享</title>
+    <link href="https://blog.w1ndys.top/posts/8263a7da"/>
+    <id>https://blog.w1ndys.top/posts/8263a7da</id>
+    <published>2024-06-05T10:55:36.000Z</published>
+    <updated>2024-07-01T09:30:01.446Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;解压环境&quot;&gt;&lt;a href=&quot;#解压环境&quot; class=&quot;headerlink&quot; title=&quot;解压环境&quot;&gt;&lt;/a&gt;解压环境&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;../img/OS/5/image-20240522190016060.png&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="QFNU" scheme="https://blog.w1ndys.top/categories/QFNU/"/>
+    
+    <category term="操作系统" scheme="https://blog.w1ndys.top/categories/QFNU/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+    <category term="实验报告" scheme="https://blog.w1ndys.top/categories/QFNU/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/"/>
+    
+    
+    <category term="QFNU" scheme="https://blog.w1ndys.top/tags/QFNU/"/>
+    
+    <category term="操作系统" scheme="https://blog.w1ndys.top/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>汇编语言与逆向工程实验报告12</title>
+    <link href="https://blog.w1ndys.top/posts/d3c5849c"/>
+    <id>https://blog.w1ndys.top/posts/d3c5849c</id>
+    <published>2024-06-02T15:33:07.000Z</published>
+    <updated>2024-07-01T09:30:01.450Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;VM 指令：&lt;code&gt;0 1 dup 11 == 17 9 if jmp swap over + swap 1 + 2 jmp swap print&lt;/code&gt;&lt;/p&gt;
+&lt;div</summary>
+        
+      
+    
+    
+    
+    <category term="QFNU" scheme="https://blog.w1ndys.top/categories/QFNU/"/>
+    
+    <category term="汇编语言与逆向工程" scheme="https://blog.w1ndys.top/categories/QFNU/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E4%B8%8E%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/"/>
+    
+    <category term="实验报告" scheme="https://blog.w1ndys.top/categories/QFNU/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E4%B8%8E%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/"/>
+    
+    
+    <category term="汇编语言" scheme="https://blog.w1ndys.top/tags/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="逆向工程" scheme="https://blog.w1ndys.top/tags/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/"/>
+    
+    <category term="QFNU" scheme="https://blog.w1ndys.top/tags/QFNU/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记一次不一样的UPX脱壳</title>
+    <link href="https://blog.w1ndys.top/posts/44452f5b"/>
+    <id>https://blog.w1ndys.top/posts/44452f5b</id>
+    <published>2024-06-01T08:46:18.000Z</published>
+    <updated>2024-07-01T09:30:01.450Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;记一次不一样的-UPX-脱壳&quot;&gt;&lt;a href=&quot;#记一次不一样的-UPX-脱壳&quot; class=&quot;headerlink&quot; title=&quot;记一次不一样的 UPX 脱壳&quot;&gt;&lt;/a&gt;记一次不一样的 UPX 脱壳&lt;/h1&gt;&lt;h2 id=&quot;前言&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="CTF" scheme="https://blog.w1ndys.top/categories/CTF/"/>
+    
+    <category term="Reverse" scheme="https://blog.w1ndys.top/categories/CTF/Reverse/"/>
+    
+    
+    <category term="逆向工程" scheme="https://blog.w1ndys.top/tags/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/"/>
+    
+    <category term="CTF" scheme="https://blog.w1ndys.top/tags/CTF/"/>
+    
+    <category term="UPX" scheme="https://blog.w1ndys.top/tags/UPX/"/>
+    
+    <category term="脱壳" scheme="https://blog.w1ndys.top/tags/%E8%84%B1%E5%A3%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>操作系统实验6——信号量的实现与应用</title>
+    <link href="https://blog.w1ndys.top/posts/8b28bf01"/>
+    <id>https://blog.w1ndys.top/posts/8b28bf01</id>
+    <published>2024-05-29T10:56:37.000Z</published>
+    <updated>2024-07-01T09:30:01.446Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;解压环境&quot;&gt;&lt;a href=&quot;#解压环境&quot; class=&quot;headerlink&quot; title=&quot;解压环境&quot;&gt;&lt;/a&gt;解压环境&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;../img/OS/5/image-20240522190016060.png&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="QFNU" scheme="https://blog.w1ndys.top/categories/QFNU/"/>
+    
+    <category term="操作系统" scheme="https://blog.w1ndys.top/categories/QFNU/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+    <category term="实验报告" scheme="https://blog.w1ndys.top/categories/QFNU/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/"/>
+    
+    
+    <category term="QFNU" scheme="https://blog.w1ndys.top/tags/QFNU/"/>
+    
+    <category term="操作系统" scheme="https://blog.w1ndys.top/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>操作系统实验5——基于内核栈切换的进程切换</title>
+    <link href="https://blog.w1ndys.top/posts/d7e85c03"/>
+    <id>https://blog.w1ndys.top/posts/d7e85c03</id>
+    <published>2024-05-22T10:55:46.000Z</published>
+    <updated>2024-07-01T09:30:01.446Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;解压环境&quot;&gt;&lt;a href=&quot;#解压环境&quot; class=&quot;headerlink&quot; title=&quot;解压环境&quot;&gt;&lt;/a&gt;解压环境&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;../img/OS/5/image-20240522190016060.png&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="QFNU" scheme="https://blog.w1ndys.top/categories/QFNU/"/>
+    
+    <category term="操作系统" scheme="https://blog.w1ndys.top/categories/QFNU/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+    <category term="实验报告" scheme="https://blog.w1ndys.top/categories/QFNU/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/"/>
+    
+    
+    <category term="QFNU" scheme="https://blog.w1ndys.top/tags/QFNU/"/>
+    
+    <category term="操作系统" scheme="https://blog.w1ndys.top/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>汇编语言与逆向工程实验报告11</title>
+    <link href="https://blog.w1ndys.top/posts/4accd526"/>
+    <id>https://blog.w1ndys.top/posts/4accd526</id>
+    <published>2024-05-20T12:54:35.000Z</published>
+    <updated>2024-07-01T09:30:01.450Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;查壳&quot;&gt;&lt;a href=&quot;#查壳&quot; class=&quot;headerlink&quot; title=&quot;查壳&quot;&gt;&lt;/a&gt;查壳&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;../img/Reverse-project/11/image-20240520205924221.png&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="QFNU" scheme="https://blog.w1ndys.top/categories/QFNU/"/>
+    
+    <category term="汇编语言与逆向工程" scheme="https://blog.w1ndys.top/categories/QFNU/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E4%B8%8E%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/"/>
+    
+    <category term="实验报告" scheme="https://blog.w1ndys.top/categories/QFNU/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E4%B8%8E%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/"/>
+    
+    
+    <category term="汇编语言" scheme="https://blog.w1ndys.top/tags/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="逆向工程" scheme="https://blog.w1ndys.top/tags/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/"/>
+    
+    <category term="QFNU" scheme="https://blog.w1ndys.top/tags/QFNU/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>汇编语言与逆向工程实验报告10</title>
+    <link href="https://blog.w1ndys.top/posts/3dcbe5b0"/>
+    <id>https://blog.w1ndys.top/posts/3dcbe5b0</id>
+    <published>2024-05-19T04:59:30.000Z</published>
+    <updated>2024-07-01T09:30:01.450Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;搭建实验环境&quot;&gt;&lt;a href=&quot;#搭建实验环境&quot; class=&quot;headerlink&quot; title=&quot;搭建实验环境&quot;&gt;&lt;/a&gt;搭建实验环境&lt;/h2&gt;&lt;p&gt;安装 nasm 和 r2&lt;/p&gt;
+&lt;figure class=&quot;highlight</summary>
+        
+      
+    
+    
+    
+    <category term="QFNU" scheme="https://blog.w1ndys.top/categories/QFNU/"/>
+    
+    <category term="汇编语言与逆向工程" scheme="https://blog.w1ndys.top/categories/QFNU/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E4%B8%8E%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/"/>
+    
+    <category term="实验报告" scheme="https://blog.w1ndys.top/categories/QFNU/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E4%B8%8E%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/"/>
+    
+    
+    <category term="汇编语言" scheme="https://blog.w1ndys.top/tags/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="逆向工程" scheme="https://blog.w1ndys.top/tags/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/"/>
+    
+    <category term="QFNU" scheme="https://blog.w1ndys.top/tags/QFNU/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mbps，Mb/s, MB/s的区别</title>
+    <link href="https://blog.w1ndys.top/posts/66b2f6fd"/>
+    <id>https://blog.w1ndys.top/posts/66b2f6fd</id>
+    <published>2024-05-18T06:55:38.000Z</published>
+    <updated>2024-07-01T09:30:01.442Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了搞懂这几个单位之间的区别，我们首先需要弄懂这其中的最重要的 &lt;strong&gt;B&lt;/strong&gt; 与 &lt;strong&gt;b&lt;/strong&gt; 分别代表了什么&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;b&lt;/strong&gt;，通常为 bit</summary>
+        
+      
+    
+    
+    
+    <category term="学习笔记" scheme="https://blog.w1ndys.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="计算机网络" scheme="https://blog.w1ndys.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+    
+    <category term="学习笔记" scheme="https://blog.w1ndys.top/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="计算机网络" scheme="https://blog.w1ndys.top/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+    <category term="传输速率" scheme="https://blog.w1ndys.top/tags/%E4%BC%A0%E8%BE%93%E9%80%9F%E7%8E%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>操作系统实验4——步骤进程运行轨迹的跟踪与统计</title>
+    <link href="https://blog.w1ndys.top/posts/806eec8c"/>
+    <id>https://blog.w1ndys.top/posts/806eec8c</id>
+    <published>2024-05-15T11:10:32.000Z</published>
+    <updated>2024-07-01T09:30:01.446Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;挂载&quot;&gt;&lt;a href=&quot;#挂载&quot; class=&quot;headerlink&quot; title=&quot;挂载&quot;&gt;&lt;/a&gt;挂载&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;../img/OS/4/image-20240515191901018.png&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="QFNU" scheme="https://blog.w1ndys.top/categories/QFNU/"/>
+    
+    <category term="操作系统" scheme="https://blog.w1ndys.top/categories/QFNU/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+    <category term="实验报告" scheme="https://blog.w1ndys.top/categories/QFNU/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/"/>
+    
+    
+    <category term="QFNU" scheme="https://blog.w1ndys.top/tags/QFNU/"/>
+    
+    <category term="操作系统" scheme="https://blog.w1ndys.top/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>这里什么也没有</title>
+    <link href="https://blog.w1ndys.top/posts/2d7b16cc"/>
+    <id>https://blog.w1ndys.top/posts/2d7b16cc</id>
+    <published>2024-05-09T11:48:03.000Z</published>
+    <updated>2024-07-01T09:30:01.446Z</updated>
+    
+    
+    <summary type="html">这篇文章被加密了</summary>
+    
+    
+    
+    <category term="技术教程" scheme="https://blog.w1ndys.top/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="QFNU" scheme="https://blog.w1ndys.top/tags/QFNU/"/>
+    
+    <category term="假条" scheme="https://blog.w1ndys.top/tags/%E5%81%87%E6%9D%A1/"/>
+    
+    <category term="智慧曲园" scheme="https://blog.w1ndys.top/tags/%E6%99%BA%E6%85%A7%E6%9B%B2%E5%9B%AD/"/>
+    
+    <category term="截图" scheme="https://blog.w1ndys.top/tags/%E6%88%AA%E5%9B%BE/"/>
+    
+    <category term="醒图" scheme="https://blog.w1ndys.top/tags/%E9%86%92%E5%9B%BE/"/>
+    
+    <category term="P图" scheme="https://blog.w1ndys.top/tags/P%E5%9B%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>操作系统实验3——系统调用</title>
+    <link href="https://blog.w1ndys.top/posts/a01ebe19"/>
+    <id>https://blog.w1ndys.top/posts/a01ebe19</id>
+    <published>2024-05-08T11:05:32.000Z</published>
+    <updated>2024-07-01T09:30:01.446Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;../img/OS/3/image-20240508192441797.png&quot; alt=&quot;image-20240508192441797&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="QFNU" scheme="https://blog.w1ndys.top/categories/QFNU/"/>
+    
+    <category term="操作系统" scheme="https://blog.w1ndys.top/categories/QFNU/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+    <category term="实验报告" scheme="https://blog.w1ndys.top/categories/QFNU/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/"/>
+    
+    
+    <category term="QFNU" scheme="https://blog.w1ndys.top/tags/QFNU/"/>
+    
+    <category term="操作系统" scheme="https://blog.w1ndys.top/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>网络安全实验报告7——慢 DDos 拒绝服务攻击</title>
+    <link href="https://blog.w1ndys.top/posts/dadf3090"/>
+    <id>https://blog.w1ndys.top/posts/dadf3090</id>
+    <published>2024-05-08T02:30:32.000Z</published>
+    <updated>2024-07-01T09:30:01.450Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;安装-Java-环境&quot;&gt;&lt;a href=&quot;#安装-Java-环境&quot; class=&quot;headerlink&quot; title=&quot;安装 Java 环境&quot;&gt;&lt;/a&gt;安装 Java 环境&lt;/h2&gt;&lt;h3 id=&quot;下载-Java&quot;&gt;&lt;a href=&quot;#下载-Java&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="QFNU" scheme="https://blog.w1ndys.top/categories/QFNU/"/>
+    
+    <category term="网络安全" scheme="https://blog.w1ndys.top/categories/QFNU/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
+    
+    <category term="实验报告" scheme="https://blog.w1ndys.top/categories/QFNU/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/"/>
+    
+    
+    <category term="QFNU" scheme="https://blog.w1ndys.top/tags/QFNU/"/>
+    
+    <category term="网络安全原理实验报告" scheme="https://blog.w1ndys.top/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E5%8E%9F%E7%90%86%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/"/>
+    
+    <category term="DDoS攻击" scheme="https://blog.w1ndys.top/tags/DDoS%E6%94%BB%E5%87%BB/"/>
+    
+    <category term="Java" scheme="https://blog.w1ndys.top/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>A replacement method for inaccurate date display in Mkdocs-material</title>
+    <link href="https://blog.w1ndys.top/posts/fa88f28c"/>
+    <id>https://blog.w1ndys.top/posts/fa88f28c</id>
+    <published>2024-04-30T15:25:19.000Z</published>
+    <updated>2024-07-01T09:30:01.442Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;There is another Chinese translation for this article：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="技术教程" scheme="https://blog.w1ndys.top/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Python" scheme="https://blog.w1ndys.top/tags/Python/"/>
+    
+    <category term="Mkdocs" scheme="https://blog.w1ndys.top/tags/Mkdocs/"/>
+    
+    <category term="material" scheme="https://blog.w1ndys.top/tags/material/"/>
+    
+    <category term="Vercel" scheme="https://blog.w1ndys.top/tags/Vercel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于Mkdocs-material日期显示不准确的一种平替方法</title>
+    <link href="https://blog.w1ndys.top/posts/512a6b20"/>
+    <id>https://blog.w1ndys.top/posts/512a6b20</id>
+    <published>2024-04-30T15:25:19.000Z</published>
+    <updated>2024-07-01T09:30:01.446Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;本文另有英文版：&lt;a href=&quot;https://blog.w1ndys.top/posts/fa88f28c&quot;&gt;https://blog.w1ndys.top/posts/fa88f28c&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;font</summary>
+        
+      
+    
+    
+    
+    <category term="技术教程" scheme="https://blog.w1ndys.top/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Python" scheme="https://blog.w1ndys.top/tags/Python/"/>
+    
+    <category term="Mkdocs" scheme="https://blog.w1ndys.top/tags/Mkdocs/"/>
+    
+    <category term="material" scheme="https://blog.w1ndys.top/tags/material/"/>
+    
+    <category term="Vercel" scheme="https://blog.w1ndys.top/tags/Vercel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>记一次Github actions的学习</title>
+    <link href="https://blog.w1ndys.top/posts/dce14753"/>
+    <id>https://blog.w1ndys.top/posts/dce14753</id>
+    <published>2024-04-29T09:34:12.000Z</published>
+    <updated>2024-07-01T09:30:01.450Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;事情是怎么一回事呢，一直以来，我的 Easy-QFNU</summary>
+        
+      
+    
+    
+    
+    <category term="技术教程" scheme="https://blog.w1ndys.top/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="Github" scheme="https://blog.w1ndys.top/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/Github/"/>
+    
+    
+    <category term="Github" scheme="https://blog.w1ndys.top/tags/Github/"/>
+    
+    <category term="ChatGPT" scheme="https://blog.w1ndys.top/tags/ChatGPT/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>操作系统实验2——操作系统的引导</title>
+    <link href="https://blog.w1ndys.top/posts/68cfe7a7"/>
+    <id>https://blog.w1ndys.top/posts/68cfe7a7</id>
+    <published>2024-04-28T08:43:56.000Z</published>
+    <updated>2024-07-01T09:30:01.446Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;解压文件&quot;&gt;&lt;a href=&quot;#解压文件&quot; class=&quot;headerlink&quot; title=&quot;解压文件&quot;&gt;&lt;/a&gt;解压文件&lt;/h2&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    <category term="QFNU" scheme="https://blog.w1ndys.top/categories/QFNU/"/>
+    
+    <category term="操作系统" scheme="https://blog.w1ndys.top/categories/QFNU/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+    <category term="实验报告" scheme="https://blog.w1ndys.top/categories/QFNU/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/"/>
+    
+    
+    <category term="QFNU" scheme="https://blog.w1ndys.top/tags/QFNU/"/>
+    
+    <category term="操作系统" scheme="https://blog.w1ndys.top/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>网络安全实验报告6——使用Python实现SYN Flood攻击实验</title>
+    <link href="https://blog.w1ndys.top/posts/8790bb83"/>
+    <id>https://blog.w1ndys.top/posts/8790bb83</id>
+    <published>2024-04-28T03:32:51.000Z</published>
+    <updated>2024-07-01T09:30:01.450Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;实验环境&quot;&gt;&lt;a href=&quot;#实验环境&quot; class=&quot;headerlink&quot; title=&quot;实验环境&quot;&gt;&lt;/a&gt;实验环境&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;操作系统：Windows 11</summary>
+        
+      
+    
+    
+    
+    <category term="QFNU" scheme="https://blog.w1ndys.top/categories/QFNU/"/>
+    
+    <category term="网络安全" scheme="https://blog.w1ndys.top/categories/QFNU/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
+    
+    <category term="实验报告" scheme="https://blog.w1ndys.top/categories/QFNU/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/"/>
+    
+    
+    <category term="Python" scheme="https://blog.w1ndys.top/tags/Python/"/>
+    
+    <category term="QFNU" scheme="https://blog.w1ndys.top/tags/QFNU/"/>
+    
+    <category term="网络安全原理实验报告" scheme="https://blog.w1ndys.top/tags/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8%E5%8E%9F%E7%90%86%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/"/>
+    
+    <category term="SYN Flood攻击" scheme="https://blog.w1ndys.top/tags/SYN-Flood%E6%94%BB%E5%87%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>汇编语言与逆向工程实验报告9 &amp;&amp; 期中测验</title>
+    <link href="https://blog.w1ndys.top/posts/b681040b"/>
+    <id>https://blog.w1ndys.top/posts/b681040b</id>
+    <published>2024-04-27T05:31:25.000Z</published>
+    <updated>2024-07-01T09:30:01.450Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;逆向病毒&quot;&gt;&lt;a href=&quot;#逆向病毒&quot; class=&quot;headerlink&quot; title=&quot;逆向病毒&quot;&gt;&lt;/a&gt;逆向病毒&lt;/h1&gt;&lt;h2 id=&quot;文件基础信息&quot;&gt;&lt;a href=&quot;#文件基础信息&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="QFNU" scheme="https://blog.w1ndys.top/categories/QFNU/"/>
+    
+    <category term="汇编语言与逆向工程" scheme="https://blog.w1ndys.top/categories/QFNU/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E4%B8%8E%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/"/>
+    
+    <category term="实验报告" scheme="https://blog.w1ndys.top/categories/QFNU/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80%E4%B8%8E%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/"/>
+    
+    
+    <category term="汇编语言" scheme="https://blog.w1ndys.top/tags/%E6%B1%87%E7%BC%96%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="逆向工程" scheme="https://blog.w1ndys.top/tags/%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B/"/>
+    
+    <category term="QFNU" scheme="https://blog.w1ndys.top/tags/QFNU/"/>
+    
+  </entry>
+  
+</feed>
